@@ -1,11 +1,5 @@
-@import './base/fonts.scss';
+@import './base/fonts';
 @import './base/reset';
-
-.container_title{
-    font-family: 'Oswald-Regular';
-    color: aquamarine;
-}
-
-.container_img{
-    max-width: 150px;
-}
+@import './home_header';
+@import './home_main';
+@import './home_footer';

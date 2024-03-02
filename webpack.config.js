@@ -66,6 +66,11 @@ module.exports = (env) => {
             port: 5000,
             open: true,
         },
+        performance: {
+            hints: false,
+            maxEntrypointSize: 512000,
+            maxAssetSize: 512000,
+          },
     }
 };
 
